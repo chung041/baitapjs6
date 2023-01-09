@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>BAI TAP JS BUOI6</title>
+
+</head>
+
+<body style="padding: 50px" class="container">
+    <h1 class="text-center" style="color: red">BAI TAP JS BUOI 6</h1>
+    <hr>
+    <br>
+    <h2>Bài 1: Tìm số nguyên dương nhỏ nhất</h2>
+    <br>
+    <div class="d-flex">
+        <div class="w-50 mb-3 form-group">
+            <label for="">Nhập số nguyên để: 1 + 2 + … + n > 10000 <br>
+                (Có thể nhập số khác)</label>
+            <input id="integer" class="form-control mb-3 w-50" type="number" value="10000">
+            <button id="test" class="btn btn-primary">Kiểm tra</button>
+        </div>
+        <div class="w-50 mt-5">
+            <h4>Kết quả: <span id="result1" style="color:red"></span></h4>
+        </div>
+
+    </div>
+    <hr>
+    <br>
+
+    <h2>Bài 2: Viết chương trình nhập vào 2 số x, n tính tổng</h2>
+    <br>
+
+    <div class="d-flex">
+        <div class="w-50 form-group">
+            <input id="numberX" class="form-control w-50 mb-3" type="number" placeholder="Nhập x">
+            <input id="number" class="form-control w-50 mb-3" type="number" placeholder="Nhập n">
+            <button class="btn btn-primary" id="calculate1">Tính tổng</button>
+        </div>
+        <div>
+            <h4 class="mt-3">Kết quả: <span id="result2" style="color:red"></span></h4>
+        </div>
+    </div>
+    <hr>
+    <br>
+    <h2>Bài 3: Nhập vào n. Tính giai thừa 1*2*...n</h2>
+    <br>
+    <div class="d-flex">
+        <div class="form-group w-50">
+            <label for="">Nhập số nguyên n</label>
+            <input id="numberN" class="form-control mb-3 w-50" type="number">
+            <button class="btn btn-primary" id="calculate2">Tính tổng</button>
+        </div>
+        <h4 class="mt-5">Kết quả: <span id="result3" style="color:red"></span></h4>
+    </div>
+    <hr>
+    <br>
+    <h2>Bài 4: Viết chương trình nhập in ra 10 thẻ div</h2>
+    <br>
+    <div id="output" class="alert alert-success w-50 d-none">
+
+    </div>
+    <button id="tạo" class="btn btn-success">Tạo div</button></h2>
+    <button id="xoá" class="btn btn-success d-none">Xoá div</button></h2>
+    <hr>
+    <br>
+    <h2>Bài 5: In ra số nguyên tố</h2>
+    <div class="form-group w-25">
+        <label for="">Nhập số nguyên tố</label>
+        <input id="soNhap" class="form-control">
+    </div>
+    <div id="result" class="result alert alert-success w-25 d-none">
+
+    </div>
+    <button class="btn btn-success" id="check">In số nguyên tố</button>
+    <script src="./Js/Index.js"></script>
+</body>
+
+</html>
